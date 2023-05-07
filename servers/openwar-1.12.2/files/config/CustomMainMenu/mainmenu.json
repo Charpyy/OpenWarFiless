@@ -1,0 +1,118 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/openwar.png",
+            "posX" : -130,
+            "posY" : -60,
+            "width" : 256,
+            "height" : 256,
+            "alignment" : "top_center"
+            
+        }
+
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "§7Solo",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "§4§lOpenWar §7§l- §4§lSeason 10",
+            "normalTextColor" : 11674146,
+            "hoverTextColor" : 11674141,
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "ConnectToServer",
+                "ip" : "play.openwar.fr"
+            }
+        },
+
+        "servers":
+        {
+            "text" : "§fPublic Servers",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "options":
+        {
+            "text" : "§7Options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "§7Quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+
+    
+    "texts":{  
+        "mojang":{  
+            "text":"",
+            "posX":-2,
+            "posY":-10,
+            "color":150,
+            "alignment":"bottom_right"
+        }
+    },
+    
+    "other":
+    {
+        "changelog":
+			{
+				"text":"web:http://pastebin.com/raw.php?i=MmSCr6zV",
+				"posX" : 2,
+				"posY" : 0,
+				"color" : -1,
+				"alignment" : "left_center"
+			},
+        
+        "background":
+        {
+            "image" : "custommainmenu:textures/gui/background.png"
+        }
+    }
+}
